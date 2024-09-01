@@ -137,12 +137,14 @@ body {
     max-width: 1000px;
     min-width: 300px;
     width: 100%;
-    align-items: start;
-    justify-content: start;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
 }
 
 .website-copyright-container {
     display: flex;
+    flex-direction: row;
     width: 100%;
     align-items: start;
     justify-content: start;

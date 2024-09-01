@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(229, 229, 229);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    min-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 1000px;
+    min-width: 300px;
+    width: 100%;
+    width: 100%;
+    padding: 20px 20px;
+    gap: 5px;
+}
+
+.header-container .logo-link {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #555;
+}
+
+.header-container .logo-link .logo {
+    width: 28px;
+}
+
+.header-container .link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    text-decoration: none;
+    padding: 5px;
+    flex: 0 0 auto;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 1000px;
+    min-width: 300px;
+    width: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    gap: 5px;
+}
+
+.navigation-container .logo-link {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #555;
+}
+
+.navigation-container .logo-link .logo {
+    width: 28px;
+}
+
+.navigation-container .link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    text-decoration: none;
+    padding: 5px;
+    flex: 0 0 auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+}
+
+.footer-container {
+    display: flex;
+    padding: 10px;
+    max-width: 1000px;
+    min-width: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
